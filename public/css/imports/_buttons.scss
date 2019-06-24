@@ -1,0 +1,30 @@
+.btn {
+  display: inline-block;
+  padding: 2vw 3vw;
+  line-height: 1.25;
+  background: none;
+  border-radius: 999px;
+  border: 4px dashed var(--blue-500);
+  text-decoration: none;
+  font-weight: var(--bold-font-weight);
+  color: var(--blue-700);
+  text-align: center;
+  transition: var(--hover-transition);
+  font-size: 1.125rem;
+}
+
+.btn.cta {
+    background: var(--yellow-500);
+    border-style: dotted;
+    border-color: var(--yellow-300);
+    color: var(--yellow-900);
+}
+
+.btn.cta:hover, .btn.cta:focus {
+    border-color: white;
+}
+
+.btn:hover, .btn:focus {
+    border-style: solid;
+    box-shadow: 0px .3em .6em rgba(0,0,0, .3);
+}

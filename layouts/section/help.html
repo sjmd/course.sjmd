@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+
+
+<section class="hero center mb7" id="faq">
+
+	<div class="center pa4 mw7 mb3 tc-m">
+        <p class="center f5 blue-700 lh-title mw7 mt2 blur-bg">
+            If you don't find your issue below, please email us at <a href="mailto:team@sjmd.space" title="Email SJMD" target="_blank">team@sjmd.space</a> and ask for whatever help you need. We'll do our best to respond within a day.
+        </p>
+    </div>
+    <div class="faq cf mb4 mw8 center ph4">
+        <h3 class="lh-title f5 f4-ns b mb3 fl mw5 mr3-ns">
+            How do I access my account?
+        </h3>
+        <p class="fr w-60-m">
+            To change your password, billing info, update your membership (or cancel it), or do other account-related things, head to <a class="link" href="https://sjmd.memberful.com" title="SJMD Account Login">sjmd.memberful.com</a>.
+        </p>
+    </div>
+	<div class="faq cf mb4 mw8 center ph4">
+        <h3 class="lh-title f5 f4-ns b mb3 fl mw5 mr3-ns">
+            The course or community is displaying weird.
+        </h3>
+        <p class="fr w-60-m">
+            Are you using a modern browser? We recommend <a href="https://www.mozilla.org/en-US/firefox/" title="Download Firefox">Firefox</a> (great privacy settings + not spying on you = win), but any modern browser (e.g., Safari, Edge, Chrome, Brave) that has been updated recently should work. Check your browser settings for an update, and make sure Javascript is enabled.
+        </p>
+    </div>
+    <div class="faq cf mb4 mw8 center ph4">
+        <h3 class="lh-title f5 f4-ns b mb3 fl mw5 mr3-ns">
+            I'm not receiving the emails with new Modules and course links.
+        </h3>
+        <p class="fr">
+            You should get an email every seven days after you sign up for the course. If you're not, one of two things are likely happening here. First, double-check that you signed up with the correct email address (no typos, etc.). If that's not it, odds are the emails are being caught in your spam folder. Seach your spam folder for "Social Justice, Minus Dogma" (<a class="link" href="https://support.google.com/mail/answer/6593?co=GENIE.Platform%3DDesktop&hl=en" title="How to search spam in Gmail" target="_blank">here's how for Gmail users</a>) and you should find the emails. If you've done both of these steps, email us and we'll get to the bottom of it.
+        </p>
+    </div>
+	<div class="faq cf mb4 mw8 center ph4">
+        <h3 class="lh-title f5 f4-ns b mb3 fl mw5 mr3-ns">
+			Why can’t I log in to your site?
+        </h3>
+        <p class="fr">
+			Check your browser’s security settings. Our membership software won’t work if you’ve disabled 3rd-party cookies. Either change your settings or use another browser.
+        </p>
+    </div>
+	<div class="faq cf mb4 mw8 center ph4">
+        <h3 class="lh-title f5 f4-ns b mb3 fl mw5 mr3-ns">
+			How do I cancel my membership?
+        </h3>
+        <p class="fr">
+			Log in to your account and toggle auto-renew off from the Subscriptions tab: <a class="link" href="https://sjmd.memberful.com/account/subscriptions" title="Membership Subscriptions">sjmd.memberful.com/account/subscriptions</a> You can cancel at any point, for any reason. You'll lose access to the community, but will be able to continue accessing the course.
+        </p>
+    </div>
+
+</section>
+
+{{ end }}

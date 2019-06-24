@@ -1,0 +1,44 @@
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    {{ if .IsHome }}
+	"@type": "WebSite",
+	{{ else }}
+	"@type": "Article",
+	{{ end }}
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "{{ .Site.BaseURL }}"
+    },
+    "articleSection" : "{{ .Section }}",
+    "name" : "{{ .Title }}",
+    "headline" : "{{ .Title }}",
+    "description" : "{{ if .Params.description }}{{ .Params.description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ .Site.Params.description}}{{ end }}{{ end }}",
+    "inLanguage" : "en-US",
+
+    "author": {
+              "@type": "Person",
+              "name": "{{ if .Params.author }}{{ .Params.author }}{{ else }}{{ range .Site.Author }}{{ . }}{{ end }}{{ end }}"
+            },
+    "creator" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Social Justice Minus Dogma",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://sjmd.space/img/apple-touch-icon.png",
+            "height": 120
+        }
+    },
+    "accountablePerson" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+    "copyrightHolder" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+    "copyrightYear" : "{{ 2019 }}",
+
+    "datePublished": "{{ if not .Date.IsZero }}{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}{{ end }}",
+    "dateCreated": "{{ if not .Date.IsZero }}{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}{{ end }}",
+    "dateModified": "{{ if not .Lastmod.IsZero }}{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}{{ end }}",
+    "url" : "{{ .Permalink }}",
+    "wordCount" : "{{ .WordCount }}",
+    "keywords" : [ {{ with .Site.Params.keywords }}"{{ . }}"{{ end }} ]
+}
+</script>

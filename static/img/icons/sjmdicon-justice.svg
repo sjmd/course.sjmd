@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1{fill:#d0d0d0}.cls-2{fill:#b7c1c3}.cls-3{fill:#2590ba}.cls-4{fill:#545c61}.cls-6{fill:#fff}
+    </style>
+  </defs>
+  <path class="cls-1" d="M6 35h15l-7-19zm18 2H4l10-26zM43 35h15l-8-19zm17 2H40l10-26z"/>
+  <path class="cls-2" d="M50 11l-3-2-15-3-15 3-3 2-3 2 4 1 3-1c4-2 9-4 14-4s10 2 14 4l3 1c2 1 4-1 4-1z"/>
+  <path class="cls-3" d="M3 35a11 11 0 1 0 22 0zM39 35a11 11 0 1 0 22 0z"/>
+  <path class="cls-2" d="M30 13h4v40h-4z"/>
+  <path class="cls-1" d="M29 19h6v34h-6z"/>
+  <path class="cls-4" d="M28 37h8v19h-8z"/>
+  <circle cx="14" cy="14" r="4" fill="#dab370"/>
+  <circle class="cls-4" cx="50" cy="14" r="4" transform="rotate(-23 50 14)"/>
+  <circle class="cls-4" cx="14" cy="14" r="4"/>
+  <path class="cls-6" d="M14 12a2 2 0 1 1-2 2 2 2 0 0 1 2-2zM50 12a2 2 0 1 1-1 2 2 2 0 0 1 1-2z"/>
+  <circle class="cls-1" cx="32" cy="8" r="6"/>
+  <path class="cls-1" d="M32 45c-8 0-15 4-15 9h30c0-5-7-9-15-9z"/>
+  <path class="cls-4" d="M15 54h33v4H15z"/>
+  <path fill="#6b777d" d="M12 58h40v4H12z"/>
+</svg>

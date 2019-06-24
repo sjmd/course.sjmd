@@ -1,0 +1,5 @@
+[[redirects]]
+	from = "https://sjmd-course.netlify.com/*"
+	to = "https://course.sjmd.space/:splat"
+	status = 301
+	force = true #COMMENT: ensure that we always redirect

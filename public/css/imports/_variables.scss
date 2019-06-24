@@ -1,0 +1,48 @@
+:root {
+	/* Colors */
+	--blue-100: #DAEFF7;
+	--blue-300: #ADDFF4;
+	--blue-500: #67C2E7;
+	--blue-700: #20799D;
+	--blue-900: #02131A;
+	--yellow-100: #FEFFD5;
+	--yellow-300: #FEFF95;
+	--yellow-500: #F3F600;
+	--yellow-700: #D8D800;
+	--yellow-900: #666416;
+
+	--primary: var(--blue-500);
+	--highlight: var(--yellow-500);
+	--white: rgba(255, 255, 255, 1);
+	--off-white: rgba(255, 253, 252, 1);
+	--grey-1: rgba(245, 243, 242, 1);
+	--grey-2: rgba(235, 231, 230, 1);
+	--grey-3: rgba(89, 87, 86, 1);
+	--grey-4: rgba(66, 64, 64, 1);
+	--black: rgba(2, 18, 26, 1);
+
+	/* Typography */
+	--font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+	--line-height: 1.5;
+
+	--font-size: 16px;
+	--font-size-m: 16px;
+	--font-size-l: 16px;
+
+	--body-font-weight: 400;
+	--bold-font-weight: 800;
+
+	/* Sizing */
+	--spacing-none: 0;
+	--spacing-extra-small: 1vw;
+	--spacing-small: 2vw;
+	--spacing-medium: 3vw;
+	--spacing-large: 5vw;
+	--spacing-extra-large: 7vw;
+	--spacing-extra-extra-large: 9vw;
+	--spacing-extra-extra-extra-large: 12vw;
+
+	/* Miscelaneous */
+	--border-radius: 3vw;
+	--hover-transition: all 150ms ease;
+}

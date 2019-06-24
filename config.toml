@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Social Justice, Minus Dogma Online Course"
+
+[params]
+	description = "Started by Sam Killermann, charting a path toward equity."
+	images = ["img/og-image.jpg"]

@@ -1,0 +1,47 @@
+/* Focus states */
+input:focus, textarea:focus, a:focus, button:focus {
+  -webkit-box-shadow: inset 0 0 0 2px var(--primary);
+  box-shadow: inset 0 0 0 2px var(--primary);
+  outline: 0 !important; }
+
+.raise {
+  -webkit-transition: var(--hover-transition);
+  -o-transition: var(--hover-transition);
+  transition: var(--hover-transition);
+  -webkit-transform: translateY(0) translateZ(0);
+  transform: translateY(0) translateZ(0); }
+
+.raise:hover,
+.raise:focus {
+  -webkit-transition: var(--hover-transition);
+  -o-transition: var(--hover-transition);
+  transition: var(--hover-transition);
+  -webkit-transform: translateY(-0.12rem) translateZ(0);
+  transform: translateY(-0.12rem) translateZ(0); }
+
+.raise:active {
+  -webkit-transition: var(--hover-transition);
+  -o-transition: var(--hover-transition);
+  transition: var(--hover-transition);
+  opacity: .5; }
+
+.hide-child .child {
+  opacity: 0;
+  -webkit-transition: opacity .15s ease-in;
+  -o-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in; }
+
+.hide-child:hover .child,
+.hide-child:focus .child,
+.hide-child:active .child {
+  opacity: 1;
+  -webkit-transition: opacity .15s ease-in;
+  -o-transition: opacity .15s ease-in;
+  transition: opacity .15s ease-in; }
+
+.underline-hover:hover,
+.underline-hover:focus {
+  text-decoration: underline; }
+
+.pointer:hover {
+  cursor: pointer; }
