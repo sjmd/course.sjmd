@@ -219,6 +219,12 @@
 
 /* HOME STYLES */
 
+/* Grid Styles */
+
+.grid-item, .grid-item-wide {
+    margin: 3%;
+}
+
 .hero {
     max-width: 1600px;
 }
@@ -476,6 +482,26 @@
         bottom: -4vw;
         display: inline-block;
         transform: translate(50%, -50%);
+    }
+
+    /* Grid Styles */
+
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: center;
+        align-content: center;
+
+        .grid-item {
+            width: 27.333%;
+            margin: 3%;
+        }
+
+        .grid-item-wide {
+            width: 60.333%;
+            margin: 3%;
+        }
     }
 
     .sticker {
