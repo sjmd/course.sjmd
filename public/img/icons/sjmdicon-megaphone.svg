@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1{fill:#67c2e7}.cls-2{fill:#333}.cls-4{fill:#ef5b7a}
+    </style>
+  </defs>
+  <path class="cls-1" d="M52 17c2 5 2 10 2 15a40 40 0 0 1-2 15V32 17zM56 9c2 8 3 15 3 23s-1 15-3 23V32 9z"/>
+  <path class="cls-2" d="M20 50h-8l13-12h8L20 50z"/>
+  <path d="M11 26H7a13 13 0 0 0-2 6 13 13 0 0 0 2 6h4a15 15 0 0 1-2-6 15 15 0 0 1 2-6z" fill="#b0bcc5"/>
+  <path class="cls-4" d="M41 8S27 24 15 25a17 17 0 0 0-2 7 17 17 0 0 0 2 7c12 1 26 17 26 17z"/>
+  <path class="cls-2" d="M15 25l-4 1a15 15 0 0 0-2 6 15 15 0 0 0 2 6l4 1a17 17 0 0 1-2-7 17 17 0 0 1 2-7z"/>
+  <ellipse cx="43" cy="32" rx="6" ry="25" fill="#b7294b"/>
+  <path d="M43 57c-3 0-6-11-6-25 5-4 11 4 11 4-10 6-5 21-5 21z" fill="#5a0b1a"/>
+  <path class="cls-2" d="M37 25v14l11-3v-8z"/>
+  <path d="M37 27v10l11-2v-6z" fill="#4b4d4f"/>
+  <path class="cls-4" d="M48 28l2 4-2 4-1-4 1-4z"/>
+  <path fill="#898a90" d="M12 29h7v22h-7z"/>
+  <path d="M16 31a2 2 0 0 1 0 3 2 2 0 0 1 0-3z" fill="#fff"/>
+</svg>

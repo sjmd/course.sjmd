@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1{fill:#88664d}.cls-2{fill:#f8c3d2}.cls-4{fill:#3b302a}.cls-5{fill:#fcd5bb}
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="54" cy="31" rx="8" ry="8"/>
+  <ellipse class="cls-2" cx="54" cy="31" rx="5" ry="5"/>
+  <ellipse class="cls-1" cx="10" cy="31" rx="8" ry="8"/>
+  <ellipse class="cls-2" cx="10" cy="31" rx="5" ry="5"/>
+  <path class="cls-1" d="M43 9l2-1a42 42 0 0 0-8-2 12 12 0 0 1 2-2C18 1 9 13 9 24h46c0-7-5-12-12-15z"/>
+  <path class="cls-1" d="M55 26C55 16 45 8 32 8S9 16 9 26a14 14 0 0 0 1 6 14 14 0 0 0-1 6c0 10 10 18 23 18s23-8 23-18a14 14 0 0 0-1-6 14 14 0 0 0 1-6z"/>
+  <path d="M52 26c0-17-20-6-20-6S12 9 12 26c0 5 3 9 7 12a9 9 0 0 0-2 6c0 6 7 11 15 11s15-5 15-11a9 9 0 0 0-2-6c4-3 7-7 7-12z" fill="#dfab7d"/>
+  <path class="cls-4" d="M35 37l-1 2-1-2 1-2 1 2zM31 37l-1 2-1-2 1-2 1 2z"/>
+  <ellipse class="cls-4" cx="41" cy="30" rx="4" ry="5"/>
+  <ellipse class="cls-4" cx="23" cy="30" rx="4" ry="5"/>
+  <path class="cls-1" d="M15 50L7 60h12l5-4-9-6z"/>
+  <path class="cls-5" d="M20 41s5-4 10-4c2 1-7 8-7 8s9-8 11-6c2 3-9 10-9 10s10-8 10-4c0 3-8 12-12 13-7 2-12-3-9-17 2-7 4 1 6 0z"/>
+  <path class="cls-1" d="M48 48l11 12H45l-2-3 5-9z"/>
+  <path d="M38 42s-6-3-10 0c-2 1 9 4 9 4s-12-4-13-1c0 3 12 6 12 6s-12-4-10-1c2 4 12 9 17 8 6-1-2-17-5-16z" fill="#dcb098"/>
+  <path class="cls-5" d="M40 42s-7-3-11 0c-2 1 10 4 10 4s-12-4-13-1 12 6 12 6-13-4-11-1c2 4 12 9 17 8 7-1 10-7 1-19-4-6-3 2-5 3z"/>
+</svg>
