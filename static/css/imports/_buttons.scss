@@ -1,6 +1,6 @@
 .btn {
   display: inline-block;
-  padding: 2vw 3vw;
+  padding: 2vw;
   line-height: 1.25;
   background: none;
   border-radius: 999px;
@@ -11,6 +11,7 @@
   text-align: center;
   transition: var(--hover-transition);
   font-size: 1.125rem;
+  cursor: pointer;
 }
 
 .btn.cta {
